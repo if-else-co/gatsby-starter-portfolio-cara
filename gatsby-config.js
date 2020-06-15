@@ -2,12 +2,17 @@ require(`dotenv`).config({
   path: `.env`,
 })
 
+const siteTitle = `Gold Coast Coders - in-home or online coding tutors`
+const siteDescription = `Step by step code tutoring for all ages K-12.`
+
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: siteTitle,
+    siteDescription: siteDescription,
+    siteLanguage: `en`,
   },
   plugins: [
     {
@@ -24,9 +29,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Gold Coast Coders`,
+        short_name: `GC Coders`,
+        description: siteDescription,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
