@@ -12,6 +12,7 @@ module.exports = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: siteTitle,
     siteDescription: siteDescription,
+    siteUrl: `https://gccoder.com`,
     siteLanguage: `en`,
   },
   plugins: [
